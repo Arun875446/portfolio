@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Welcome to Arun Kumar's portfolio website. Explore a showcase of my front-end development skills with HTML, CSS, JavaScript, and Next.js. Discover my projects and contact information.">
+        <meta name="keywords" content="Front-end developer, Web developer, Web design, Portfolio, HTML, CSS, JavaScript, React.js, Next.js, web development">
+        <meta name="author" content="Arun Kumar">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive portfolio website Arun</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Arun
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="ri-home-5-line"></i> Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="ri-trophy-line"></i> Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="ri-book-open-line"></i> Qualification
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="ri-briefcase-line"></i> Services
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="ri-image-line"></i> Projects
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="ri-chat-3-line"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Close button -->
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__buttons">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <!-- Toggle button -->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-4-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid section__border">
+                    <div class="home__data grid">
+                        <h1 class="home__title">
+                            Hi, I’m Arun <br>
+                            Frontend Developer <br>
+                            Based In India. <br>
+                        </h1>
+
+                        <div class="home__blob grid">
+                            <div class="home__perfil">
+                                <img class="pic" src="assets/img/arun webp.webp" alt="">
+                            </div>
+
+                            <img src="assets/img/shape-wawes.svg" alt="" class="home__shape-wawes">
+                            <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle">
+                        </div>
+
+                        <ul class="home__social">
+                            <a href="https://www.linkedin.com/in/arun-kumar-12b725238" target="_blank" class="home__social-link">
+                                <i class="ri-linkedin-box-line"></i>
+                            </a>
+
+                            <a href="https://github.com/Arun875446?tab=repositories" target="_blank" class="home__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/arun_web_dev/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <!--==================== HOME INFO 1 ====================-->
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">
+                                BIOGRAPHY
+                            </h3>
+                            
+                            <p class="home__info-description" style="line-height: 1.5;">
+                                Hi, I'm Arun, Frontend Developer with a proven skills to collaborate effectively with senior developers while spending extra time to be mentored. 
+                                With a passion for both personal growth and for software development.
+                            </p>
+                        </div>
+
+                        <div>
+                            <!-- <h3 class="home__info-title">
+                                CONTACT
+                            </h3> -->
+
+                            <!-- <p class="home__info-description">
+                                arun875446@gmail.com <br>
+                                +91 8754466139 <br>
+                            </p> -->
+                        </div>
+
+                        <div>
+                            <h3 class="home__info-title">
+                                SERVICES
+                            </h3>
+
+                            <p class="home__info-description">
+                                Website Design <br>
+                                Web Application <br>
+                                Design mobile-based features <br>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--==================== HOME INFO 2 ====================-->
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">
+                                SELF-TAUGHT
+                            </h3>
+
+                            <p class="home__info-number">
+                                Freelancer
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="home__info-title">
+                                PORTFOLIO PROJECTS
+                            </h3>
+
+                            <p class="home__info-number">
+                                05+
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="home__info-title">
+                                PROJECTS
+                            </h3>
+
+                            <p class="home__info-web">
+                                Blog<br>Websites 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">and tools i use</span>
+
+                <div class="skills__container container grid section__border">
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content">
+                        <h3 class="skills__title">
+                            <i class="ri-braces-line"></i> Frontend Skills
+                        </h3>
+
+                        <div class="skills__info">
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/html-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/css-3.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/logo-javascript.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">JavaScript</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/react-2.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">React</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/next-js.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">Next Js</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/bootstrap-5-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">Bootstrap</h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content">
+                        <h3 class="skills__title">
+                            <i class="ri-pantone-line"></i> Web Dev Tools
+                        </h3>
+
+                        <div class="skills__info">
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/visual-studio-code-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">VS Code</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/canva-1.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">Canva</h3>
+                                <span class="skills__subtitle">Advanced</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/git-icon.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">GitHub</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/chrome.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">Chrome</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="assets/img/netlify.svg" alt="skills image">
+                                </div>
+
+                                <h3 class="skills__name">Netlify</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">Education & Experience</span>
+
+                <div class="qualification__container container grid section__border">
+                    <!--==================== QUALIFICATION 1 ====================-->
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">
+                            <i class="ri-pencil-ruler-2-line"></i> Education
+                        </h3>
+
+                        <div class="qualification__info">
+
+                            <div>
+                                <h3 class="qualification__name">
+                                    High School - Computer Science
+                                </h3>
+                                <span class="qualification__country">BMC - Tuticorin</span>
+                                <span class="qualification__year">2012 - 2014</span>
+                            </div>
+
+
+                            <div>
+                                <h3 class="qualification__name">
+                                    BSc in Computer Application
+                                </h3>
+                                <span class="qualification__country">Hindusthan - Coimbatore</span>
+                                <span class="qualification__year">2014 - 2017</span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__name">
+                                    MSc in Visual Communication 
+                                </h3>
+                                <span class="qualification__country">Loyola - Chennai</span>
+                                <span class="qualification__year">2017 - 2019</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--==================== QUALIFICATION 2 ====================-->
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">
+                            <i class="ri-building-line"></i> Work
+                        </h3>
+
+                        <!-- <div class="qualification__info">
+                            <div>
+                                <h3 class="qualification__name">
+                                    PR Assistant
+                                </h3>
+                                <span class="qualification__country">V4U Media</span>
+                                <span class="qualification__year">2019 - 2020</span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__name">
+                                    Freelance
+                                </h3>
+                                <span class="qualification__country">Public Relations</span>
+                                <span class="qualification__year">2020 - 2021</span>
+                            </div> -->
+
+                            <div>
+                                <h3 class="qualification__name">
+                                    Freelance
+                                </h3>
+                                <span class="qualification__country">Frontend Developer</span>
+                                <span class="qualification__year">2021 - Present</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="assets/img/shape-circle.svg" alt="qualification image" class="qualification__img">
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">What i offer</span>
+
+                <div class="services__container container grid section__border">
+                    <div class="services__card">
+                        <i class="ri-layout-4-line"></i>
+
+                        <h2 class="services__title">
+                            Web <br>
+                            Application
+                        </h2>
+
+                        <p class="services__description">
+                            Build web applications using the reusable, dynamic, 
+                            component driven architecture of Next Js & Vanilla Js.
+                        </p>
+                        <div class="services__border"></div>
+                    </div>
+
+                    <div class="services__card">
+                        <i class="ri-code-line"></i>
+
+                        <h2 class="services__title">
+                            Website <br>
+                            Design
+                        </h2>
+
+                        <p class="services__description">
+                            Build Responsive websites using the right technology 
+                            stacks that align with your business objectives.
+                        </p>
+                        <div class="services__border"></div>
+                    </div>
+
+                    <div class="services__card">
+                        <i class="ri-quill-pen-line"></i>
+
+                        <h2 class="services__title">
+                            Website <br>
+                            Animation
+                        </h2>
+
+                        <p class="services__description">
+                            Design Cool Animations for Websites / Components using Css, Vanilla JavaScript.
+                        </p>
+                        <div class="services__border"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PROJECTS ====================-->
+            <section class="projects section" id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Most recent work</span>
+
+                <div class="container section__border">
+                    <div class="projects__container swiper">
+                        <div class="swiper-wrapper">
+
+                            
+                            <!--==================== PROJECT 1 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/rest (1).webp" alt="projects image" class="projects__img">
+    
+                                <div>
+                                    <span class="projects__subtitle">Responsive Website</span>
+                                    <h1 class="projects__title">Restaurant Website</h1>
+                                    <a href="https://dazzling-liger-55f49f.netlify.app/" target="_blank" class="projects__button">
+                                        View demo <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                             <!--==================== PROJECT 2 ====================-->
+                             <div class="projects__content swiper-slide">
+                                <img src="assets/img/prompt (1).webp" alt="projects image" class="projects__img">
+    
+                                <div>
+                                    <span class="projects__subtitle">Full Stack Web App</span>
+                                    <h1 class="projects__title">Prompt Book</h1>
+                                    <a href="https://chat-gpt-next-sigma-ten.vercel.app/" target="_blank" class="projects__button">
+                                        View demo <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!--==================== PROJECT 3 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/toon.webp" alt="projects image" class="projects__img">
+    
+                                <div>
+                                    <span class="projects__subtitle">Full Stack Web App</span>
+                                    <h1 class="projects__title">Toon Hub</h1>
+                                    <a href="https://car-hub-five-virid.vercel.app/" target="_blank" class="projects__button">
+                                        View demo <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <!--==================== PROJECT 4 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/enhance.webp" alt="projects image" class="projects__img">
+    
+                                <div>
+                                    <span class="projects__subtitle">Responsive Website</span>
+                                    <h1 class="projects__title">ECommerce Store</h1>
+                                    <a href="https://playful-pithivier-7c2ab3.netlify.app/" target="_blank" class="projects__button">
+                                        View demo <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            
+
+                             <!--==================== PROJECT 5 ====================-->
+                             <div class="projects__content swiper-slide">
+                                <img src="assets/img/apple.webp" alt="projects image" class="projects__img">
+    
+                                <div>
+                                    <span class="projects__subtitle">(PC Only) Not Mobile Responsive</span>
+                                    <h1 class="projects__title">Animated Iphone Page</h1>
+                                    <a href="https://graceful-kangaroo-35b7fb.netlify.app/" target="_blank" class="projects__button">
+                                        View demo <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <!--==================== PROJECT 6 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/nutty (1).webp" alt="projects image" class="projects__img">
+    
+                                <div>
+                                    <span class="projects__subtitle">Responsive Website</span>
+                                    <h1 class="projects__title">ECommerce Store</h1>
+                                    <a href="https://www.ebbenutsstore.com/" target="_blank" class="projects__button">
+                                        View demo <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                              <!--==================== PROJECT 7 ====================-->
+                              <div class="projects__content swiper-slide">
+                                <img src="assets/img/calendar-thumbnail-big (1).webp" alt="projects image" class="projects__img">
+    
+                                <div>
+                                    <span class="projects__subtitle">JavaScript</span>
+                                    <h1 class="projects__title">Google Calendar Clone</h1>
+                                    <a href="https://github.com/Arun875446/Calendar-Clone-JS" target="_blank" class="projects__button">
+                                        View demo <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+    
+                        <!-- Swiper arrows -->
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+    
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+    
+                        <!-- Swiper pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                <h2 class="section__title">Testimonial</h2>
+                <span class="section__subtitle">My client saying</span>
+
+                <div class="container section__border">
+                    <div class="testimonial__container swiper">
+                        <div class="swiper-wrapper">
+                            <!--==================== TESTIMONIAL 1 ====================-->
+                            <div class="testimonial__content swiper-slide">
+                                <p class="testimonial__description">
+                                    “Arun was very helpful and fast to respond to my inquiry during our website development. 
+                                    His knowledge was comprehensive, He explain complex ideas, details in layman terms 
+                                    so that we can visualize his design plan. Totally satisfied with his web design.”
+                                </p>
+    
+                                <div>
+                                    <h3 class="testimonial__name">Mr. Ebenezar</h3>
+                                    <span class="testimonial__subtitle">Client</span>
+                                </div>
+                            </div>
+    
+                            <!--==================== TESTIMONIAL 2 ====================-->
+                            <div class="testimonial__content swiper-slide">
+                                <p class="testimonial__description">
+                                 “I was looking for a Web professional who would create and evolve my website. 
+                                  Arun delivers exactly what I want. I know he will keep improving my website. 
+                                  I look forward to a great working relationship and friendship with him.”
+                                </p>
+    
+                                <div>
+                                    <h3 class="testimonial__name">Sarophine</h3>
+                                    <span class="testimonial__subtitle">Client</span>
+                                </div>
+                            </div>
+    
+                            <!--==================== TESTIMONIAL 3 ====================-->
+                            <!-- <div class="testimonial__content swiper-slide">
+                                <p class="testimonial__description">
+                                    “Just thought I’d share something with you about my Blog. I have had so much positive feedback from friends and family 
+                                    on how great the site looks. Thanks for making it look so professional !”
+                                </p>
+    
+                                <div>
+                                    <h3 class="testimonial__name">Yogesh</h3>
+                                    <span class="testimonial__subtitle">Client</span>
+                                </div>
+                            </div> -->
+                            
+                        </div>
+
+    
+                        <!-- Swiper arrows -->
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+    
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="assets/img/shape-wawes.svg" alt="" class="testimonial__img">
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid section__border">
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-chat-3-line"></i> Talk to me
+                        </h3>
+
+                        <div class="contact__info">
+                            <div class="contact__data">
+                                <span class="contact__data-title">Email</span>
+                                <span class="contact__data-info">arun875446@gmail.com</span>
+                            </div>
+
+                            <div class="contact__data">
+                                <span class="contact__data-title">Whatsapp</span>
+                                <span class="contact__data-info">+91 8754466139</span>
+                                <!-- Insert a real number plus country code -->
+                                <a href="https://api.whatsapp.com/send?phone=918754466139&text=Hello, more information!" target="_blank" class="contact__button">
+                                    Write me <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__data">
+                                <span class="contact__data-title">Instagram</span>
+                                <span class="contact__data-info">hi_arun_here</span>
+                                <!-- Insert your brand name or profile -->
+                                <a href="https://www.instagram.com/hi_arun_here/" target="_blank" class="contact__button">
+                                    Ping me <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-send-plane-line"></i> Hire Me !
+                        </h3>
+
+                        <form action="" class="contact__form" id="contact-form">
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Name</label>
+                                <input type="text" name="user_name" required placeholder="Write your name" class="contact__form-input" id="contact-name">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Mail</label>
+                                <input type="email" name="user_email" required placeholder="Write your mail" class="contact__form-input" id="contact-email">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label class="contact__form-tag">Project</label>
+                                <textarea name="user_project" placeholder="Write your message" class="contact__form-input" id="contact-project"></textarea>
+                            </div>
+
+                            <p class="contact__message" id="contact-message"></p>
+
+                            <button type="submit" class="contact__button">
+                                Submit <i class="ri-arrow-right-up-line"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Arun</h1>
+                <p>Frontend Developer</p>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/arun-kumar-12b725238" target="_blank" class="footer__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+
+                    <a href="https://github.com/Arun875446?tab=repositories" target="_blank" class="footer__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/arun_web_dev/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Copyright Arun. All rights reserved
+                </span>
+            </div>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== EMAIL JS ===============-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
